@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* General Styles *//*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo neutro 
+  }*/
+  
+  /* Navigation Container *//*
+  .container-nav {
+    background-color: black; /* Color 1 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  */
+  /* Navigation Styles *//*
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  nav h3 {
+    color: white;
+    margin: 0;
+    margin-right: 20px; /* Espacio entre el logo y las opciones 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+    
+  nav ul li a:hover {
+    color: #4374F5; 
+  }
+   */ 
+  /* SVG Styles */ /*
+  svg {
+    fill: white;
+    transition: fill 0.3s ease;
+  }
+  
+  svg:hover {
+    fill: #4374F5;  
+  }
+  */
+
+  /* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Color de fondo neutro */
+  }
+  
+  /* Navigation Container */
+  .container-nav {
+    background-color: black; /* Color 1 */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navigation Styles */
+  nav {
+    display: flex;
+    flex-grow: 1; /* Asegura que la lista ocupe el espacio disponible */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Alinea las opciones del menú a la derecha */
+    width: 100%;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #4374F5; /* Color 2 */
+  }
+  
+  /* SVG Styles */
+  svg {
+    fill: white;
+    margin-right: 20px; /* Espacio entre el logo y las opciones del menú */
+    transition: fill 0.3s ease;
+  }
+  
+  svg:hover {
+    fill: #4374F5; /* Color 2 */
+  }
+  
